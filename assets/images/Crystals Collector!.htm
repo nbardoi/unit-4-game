@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///Users/Nagma/unit-4-game/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector!</title>
+    
+    <link rel="stylesheet" href="./Crystals Collector!_files/style.css">
+
+    <script src="./Crystals Collector!_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./Crystals Collector!_files/jquery-2.2.0.js"></script>
+    
+</head>
+<body>
+    <div>
+    <h1>Crystals Collector!</h1>
+    </div>
+
+    <div>
+    <p> You will be given a random number at the start of the game. </p>
+    <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    <p> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p> The value of each crystal is hidden from you until you click on it.</p>
+    <p> Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="column-md-3">
+                <h2 id="randomNumber">106</h2><h2>
+            </h2></div>
+            <div class="column-md-3">
+                <div class="row">
+                    <p>Wins: </p>
+                    <p id="totalWins">0</p>
+                </div>
+                <div class="row">
+                    <p>Losses: </p>
+                    <p id="totalLosses">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="row">
+            <div class="column-md-3">
+                <img id="gem1" src="./Crystals Collector!_files/gem1.jpg" alt="gem1">
+                <img id="gem2" src="./Crystals Collector!_files/gem2.jpg" alt="gem2">
+                <img id="gem3" src="./Crystals Collector!_files/gem3.jpg" alt="gem3">
+                <img id="gem4" src="./Crystals Collector!_files/gem4.jpg" alt="gem4">
+            </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <h3>Your total score is:</h3>
+        </div>
+        <div class="row">
+            <div class="column-md-3">
+                <b><h2 id="totalScore">0</h2></b>
+            </div>
+        </div>
+    </div>
+                
+
+
+<script type="text/javascript" src="./Crystals Collector!_files/game.js"></script>
+
+
+</div></body></html>
